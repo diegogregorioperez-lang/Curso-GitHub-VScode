@@ -15,6 +15,6 @@ function precioConIva($precio, $iva) {
  * @return void - echo de un saludo hacia una persona
  */
 function saludoDeDiego(String $nombre) {
-    echo ("Hola ".$nombre);
+    echo ("Hola "$nombre);
 }
 ?>
