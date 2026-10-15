@@ -8,4 +8,13 @@
 function precioConIva($precio, $iva) {
     return $precio * (1 + $iva / 100);
 }
+
+/**
+ * Función que saluda a una persona cuyo nombre es pasado como parámetro
+ * @param string $nombre - Nombre de la persona a saludar
+ * @return void - echo de un saludo hacia una persona
+ */
+function saludoDeDiego(String $nombre) {
+    echo ("Hola ".$nombre);
+}
 ?>
