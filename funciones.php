@@ -16,7 +16,7 @@ function precioConIva($precio, $iva) {
  * @return string Saludo completo.
  */
 function saludoDiego(string $nombre): string {
-    retu "Hola " . $nombre . ", soy Diego";
+    return "Hola " . $nombre . ", soy Diego";
 }
 
 ?>
